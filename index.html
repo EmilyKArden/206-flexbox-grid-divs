@@ -1,37 +1,64 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>What Makes the Emily?</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Commenting out old fonts
+        
         <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    
+    -->
+    <!--My font changes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Permanent+Marker&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       
-        <section class="wrapper">
-            <div class="div-1">
-                Div 1
-            </div>
-            <div class="div-2">
-                Div 2
-            </div>
-            <div class="div-3">
-                Div 3
-            </div>
-        </section>    
+    <section class="div-wrapper">
+        <div class="div">
+            <h2>My Values</h2>
+            <p>The advent of the World Wide Web brought us a level of connection, perviously unfathomable to humankind.
+                I've
+                seen first hand how impactful access to technology can be. With that in mind, I prioritize access and
+                inclusion in all of my projects. Technology should be for everyone.</p>
+        </div>
+        <div class="div">
+            <h2>My Skills</h2>
+            <p>As a "hot-off-the-presses" developer, my areas of expertise are rapidly expanding! Here's just a few of
+                the things I've learned so far:
+                <em>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS/Flexbox</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </em>
+            </p>
+        </div>
+        <div class="div">
+            <h2>My Hobbies</h2>
+            <p>What can I say? I'm a creative, through and through. When not expanding my skills in the digital space,
+                you can find me obsessing about food, crocheting, pouring resin, singing, or playing D&D! Feel free to
+                ask me about my current campaign or my favorite character.</p>
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
@@ -40,12 +67,15 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+                (function (b, o, i, l, e, r) {
+                    b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                        function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+                    e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+                    e.src = 'https://www.google-analytics.com/analytics.js';
+                    r.parentNode.insertBefore(e, r)
+                }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X', 'auto'); ga('send', 'pageview');
         </script>
-    </body>
+</body>
+
 </html>
